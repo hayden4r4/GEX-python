@@ -1,0 +1,4 @@
+# Gamma Exposure Index (GEX) in Python w/ TDAmeritrade  
+This script calculates the total [GEX](https://squeezemetrics.com/monitor/download/pdf/white_paper.pdf) for a given ticker.  It utilizes [tda-api](https://github.com/alexgolec/tda-api) to pull option chains from TDAmeritrade.  
+  
+Interpreting the GEX (quoted from the [GEX paper](https://squeezemetrics.com/monitor/download/pdf/white_paper.pdf)): "a GEX figure that is positive implies that option market-makers will hedge their positions in a fashion that stikes volatility (buying into lows, selling into highs). A GEX figure that is negative implies the opposite (selling into lows, buying into highs), thus magnifying market volatility."
